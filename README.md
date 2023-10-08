@@ -2,7 +2,7 @@
 
 ![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)
 
-Rust Code Translator is a versatile program that translates code written in a custom PHP-like language into other programming languages. This repository includes a lexer and parser for the source code and provides translation functionality for two target languages: Python 3 and x86_64 assembly for Linux using FASM.
+Rust Code Translator is a versatile program that translates code written in C programming language. This repository includes a lexer and parser for the source code and provides translation functionality for two target languages: Python 3 and x86_64 assembly for Linux using FASM.
 
 ## Table of Contents
 
