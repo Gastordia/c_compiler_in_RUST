@@ -40,6 +40,7 @@ Before you begin, ensure you have met the following requirements:
     cargo build --release
   This will create an executable in the target/release directory.
 ### Usage
+
   -You can run the program using the following command:
     ./target/release/rust_code_translator [OPTIONS] <input.c>
   Replace <input.c> with the path to your input code file. Here are some options you can use:
@@ -47,9 +48,11 @@ Before you begin, ensure you have met the following requirements:
   -target <target>: Specify the compilation target. Use python3 for Python 3 translation (default) or fasm-x86_64-linux for x86_64 assembly for Linux.
   -help: Print the usage message.
 ### Supported Targets
+
   Python 3: Translates the code into Python 3, providing similar functionality.
 
   x86_64 Assembly for Linux (FASM): Translates the code into x86_64 assembly for Linux using the Flat Assembler (FASM). The generated assembly code can b assembled 
   and linked with FASM to create an executable.
 ### Author
+
   Gastordia
