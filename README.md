@@ -31,17 +31,3 @@ Supported Targets
 Python 3: Translates the code into Python 3, providing similar functionality.
 
 x86_64 Assembly for Linux (FASM): Translates the code into x86_64 assembly for Linux using the Flat Assembler (FASM). The generated assembly code can be assembled and linked with FASM to create an executable.
-
-Language Features
-The input code language is a custom PHP-like language with basic functionality for defining functions, calling functions, and handling string literals, numbers, and simple control flow statements.
-
-License
-This code is provided under the MIT License.
-
-Author
-[Your Name]
-
-Feedback and Contributions
-Feedback and contributions are welcome! Feel free to open issues or pull requests on GitHub.
-
-Replace [Your Name] with your name or organization and provide the appropriate GitHub repository link if you plan to publish the code on GitHub. Additionally, you may want to include information on how to install the required Rust compiler and Cargo if they are not already installed on the user's system.
