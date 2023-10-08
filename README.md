@@ -1,33 +1,56 @@
-Rust Code Translator
-This is a Rust program that translates code written in a custom PHP-like language into other programming languages. The program includes a lexer and parser for the source code and provides translation functionality for two target languages: Python 3 and x86_64 assembly for Linux using FASM.
+# Rust Code Translator
 
-Usage
-Compilation
-You can compile the Rust code using Cargo, Rust's package manager and build tool:
+![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)
 
-bash
-Copy code
-cargo build --release
-This command will create an executable file in the target/release directory.
+Rust Code Translator is a versatile program that translates code written in a custom PHP-like language into other programming languages. This repository includes a lexer and parser for the source code and provides translation functionality for two target languages: Python 3 and x86_64 assembly for Linux using FASM.
 
-Running
-You can run the program with the following command:
+## Table of Contents
 
-bash
-Copy code
-./target/release/rust_code_translator [OPTIONS] <input.c>
-Replace <input.c> with the path to the input code file.
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Supported Targets](#supported-targets)
+- [Language Features](#language-features)
+- [Author](#author)
 
-Options
--target <target>: Specify the compilation target. Use python3 for Python 3 translation or fasm-x86_64-linux for x86_64 assembly for Linux. Default is python3.
--help: Print the usage message.
-Example
-Translate code in input.c to Python 3:
+## Features
 
-bash
-Copy code
-./target/release/rust_code_translator -target python3 input.c
-Supported Targets
-Python 3: Translates the code into Python 3, providing similar functionality.
+- Translate custom PHP-like code into Python 3 or x86_64 assembly for Linux.
+- Lexer and parser for the source code.
+- Support for functions, function calls, string literals, numbers, and control flow statements.
 
-x86_64 Assembly for Linux (FASM): Translates the code into x86_64 assembly for Linux using the Flat Assembler (FASM). The generated assembly code can be assembled and linked with FASM to create an executable.
+## Getting Started
+
+### Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+- [Rust](https://www.rust-lang.org/tools/install) installed on your system.
+- [FASM](https://flatassembler.net/download.php) (only for assembly translation) installed on your system.
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-github-username/rust-code-translator.git
+2. Build the Rust program using Cargo:
+    cd rust-code-translator
+    cargo build --release
+  This will create an executable in the target/release directory.
+### Usage
+  -You can run the program using the following command:
+    ./target/release/rust_code_translator [OPTIONS] <input.c>
+  Replace <input.c> with the path to your input code file. Here are some options you can use:
+
+  -target <target>: Specify the compilation target. Use python3 for Python 3 translation (default) or fasm-x86_64-linux for x86_64 assembly for Linux.
+  -help: Print the usage message.
+### Supported Targets
+  Python 3: Translates the code into Python 3, providing similar functionality.
+
+  x86_64 Assembly for Linux (FASM): Translates the code into x86_64 assembly for Linux using the Flat Assembler (FASM). The generated assembly code can b assembled 
+  and linked with FASM to create an executable.
+### Author
+  Gastordia
