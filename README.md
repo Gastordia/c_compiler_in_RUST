@@ -12,7 +12,6 @@ Rust Code Translator is a versatile program that translates code written in a cu
 - [Installation](#installation)
 - [Usage](#usage)
 - [Supported Targets](#supported-targets)
-- [Language Features](#language-features)
 - [Author](#author)
 
 ## Features
